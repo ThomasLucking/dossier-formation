@@ -1,162 +1,302 @@
 [
   {
-    "module": "106 - Interroger, traiter et assurer la maintenance des bases de données",
-    "description": "Write queries against existing databases, process the data and handle maintenance tasks like access rights, backups and integrity."
+    "code": "a1",
+    "domain": "a - Suivi des projets ICT",
+    "competence": "Clarifier et documenter les besoins des parties prenantes dans le cadre d'un projet ICT",
+    "modules": [
+      "306",
+      "431"
+    ]
   },
   {
-    "module": "107 - Mettre en œuvre des solutions ICT avec la technologie blockchain",
-    "description": "Optional CIE module on designing and implementing ICT solutions that use blockchain technology, including its security aspects."
+    "code": "a2",
+    "domain": "a - Suivi des projets ICT",
+    "competence": "Définir un modèle de procédure pour un projet ICT",
+    "modules": [
+      "306",
+      "431"
+    ]
   },
   {
-    "module": "109 - Exploiter et surveiller des services dans le cloud public",
-    "description": "Optional CIE module on running, monitoring and securing services hosted on a public cloud platform."
+    "code": "a3",
+    "domain": "a - Suivi des projets ICT",
+    "competence": "Rechercher des informations sur des solutions ICT et sur les innovations",
+    "modules": [
+      "241",
+      "245",
+      "248"
+    ]
   },
   {
-    "module": "110 - Analyser et représenter des données avec des outils",
-    "description": "Optional CIE module on importing data into analysis tools, exploring it and presenting it with appropriate visualisations."
+    "code": "a4",
+    "domain": "a - Suivi des projets ICT",
+    "competence": "Planifier les projets ICT et les tâches selon un modèle de procédure",
+    "modules": [
+      "306",
+      "431"
+    ]
   },
   {
-    "module": "114 - Mettre en œuvre des systèmes de codification, de compression et d'encryptage",
-    "description": "Understand and apply encoding, compression and encryption systems to represent, store and protect data."
+    "code": "a5",
+    "domain": "a - Suivi des projets ICT",
+    "competence": "Visualiser et présenter les variantes de solutions ICT",
+    "modules": [
+      "306",
+      "431"
+    ]
   },
   {
-    "module": "117 - Mettre en place l'infrastructure informatique et réseau d'une petite entreprise",
-    "description": "Plan and set up the basic IT and network infrastructure of a small company, including connectivity and security basics."
+    "code": "a6",
+    "domain": "a - Suivi des projets ICT",
+    "competence": "Vérifier l'avancement des projets ICT et des tâches et en faire état selon le modèle de procédure",
+    "modules": [
+      "306",
+      "431"
+    ]
   },
   {
-    "module": "122 - Automatiser des procédures à l'aide de scripts",
-    "description": "Automate repetitive IT tasks and processes by writing scripts."
+    "code": "a7",
+    "domain": "a - Suivi des projets ICT",
+    "competence": "Remettre la solution ICT au client et clôturer le projet",
+    "modules": [
+      "306",
+      "431"
+    ]
   },
   {
-    "module": "162 - Analyser et modéliser des données",
-    "description": "Analyse data from various sources, clean it and design a normalised data model to represent it."
+    "code": "b1",
+    "domain": "b - Assistance et conseils dans l'environnement ICT",
+    "competence": "Installer un PC monoposte",
+    "modules": [
+      "114",
+      "117",
+      "187"
+    ]
   },
   {
-    "module": "164 - Créer des bases de données et y insérer des données",
-    "description": "Implement a data model as a relational database with referential integrity and populate it with data."
+    "code": "b2",
+    "domain": "b - Assistance et conseils dans l'environnement ICT",
+    "competence": "Réceptionner et traiter des demandes d'assistance informatique complexes",
+    "modules": []
   },
   {
-    "module": "165 - Utiliser des bases de données NoSQL",
-    "description": "Use NoSQL databases to store and query data and understand when they fit better than relational ones."
+    "code": "b3",
+    "domain": "b - Assistance et conseils dans l'environnement ICT",
+    "competence": "Conseiller les clients en matière de protection et de sécurité des données",
+    "modules": [
+      "107",
+      "185",
+      "216",
+      "217",
+      "231"
+    ]
   },
   {
-    "module": "183 - Implémenter la sécurité d'une application",
-    "description": "Identify security risks in an application (e.g. OWASP) and implement measures like access control, encryption and escaping."
+    "code": "b4",
+    "domain": "b - Assistance et conseils dans l'environnement ICT",
+    "competence": "Analyser, visualiser et documenter les processus métier des clients",
+    "modules": [
+      "254"
+    ]
   },
   {
-    "module": "185 - Analyser et implémenter des mesures visant à assurer la sécurité informatique des PME",
-    "description": "Optional CIE module on assessing an SME's IT security situation and implementing appropriate protection measures."
+    "code": "c1",
+    "domain": "c - Création et maintenance de données numériques",
+    "competence": "Identifier et analyser les données et développer des modèles de données",
+    "modules": [
+      "110",
+      "162",
+      "164",
+      "259"
+    ]
   },
   {
-    "module": "187 - Mettre en service un Poste de travail ICT avec le système d'exploitation",
-    "description": "Mandatory CIE module on installing and configuring a workstation with its OS, software, network connection and security settings."
+    "code": "c2",
+    "domain": "c - Création et maintenance de données numériques",
+    "competence": "Mettre en œuvre des modèles de données dans un dispositif de stockage de données numériques",
+    "modules": [
+      "106",
+      "164"
+    ]
   },
   {
-    "module": "190 - Mettre en place et exploiter une plateforme de virtualisation",
-    "description": "Optional CIE module on setting up and operating a virtualisation platform to run virtual machines."
+    "code": "c3",
+    "domain": "c - Création et maintenance de données numériques",
+    "competence": "Planifier, implémenter et documenter la sécurité et la protection des données pour des solutions ICT",
+    "modules": [
+      "106",
+      "107",
+      "109",
+      "185",
+      "210",
+      "231",
+      "259"
+    ]
   },
   {
-    "module": "210 - Utiliser un cloud public pour des applications",
-    "description": "Optional CIE module on deploying and running applications using public cloud services and choosing the right service model."
+    "code": "c4",
+    "domain": "c - Création et maintenance de données numériques",
+    "competence": "Traiter des données à partir de dispositifs de stockage de données numériques",
+    "modules": [
+      "110",
+      "162",
+      "259"
+    ]
   },
   {
-    "module": "216 - Intégrer les terminaux IoE dans une plateforme existante",
-    "description": "Optional CIE module on connecting Internet of Everything devices to an existing platform securely."
+    "code": "g1",
+    "domain": "g - Développement d'applications",
+    "competence": "Analyser et documenter les besoins en matière d'applications et d'interfaces",
+    "modules": [
+      "162",
+      "164",
+      "254",
+      "321",
+      "322",
+      "324",
+      "346",
+      "426"
+    ]
   },
   {
-    "module": "217 - Concevoir, planifier et mettre en place un service pour l'IoE",
-    "description": "Optional CIE module on designing, planning and building a service for Internet of Everything devices."
+    "code": "g2",
+    "domain": "g - Développement d'applications",
+    "competence": "Vérifier la faisabilité technique des prototypes d'interfaces utilisateur et les développer",
+    "modules": [
+      "217",
+      "223",
+      "293",
+      "294",
+      "319",
+      "320",
+      "322",
+      "335"
+    ]
   },
   {
-    "module": "223 - Réaliser des applications multi-utilisateurs orientées objets",
-    "description": "Optional CIE module on building object-oriented applications that support multiple concurrent users."
+    "code": "g3",
+    "domain": "g - Développement d'applications",
+    "competence": "Evaluer et documenter la sécurité des applications et des interfaces",
+    "modules": [
+      "107",
+      "114",
+      "183",
+      "216",
+      "217",
+      "295",
+      "346",
+      "450"
+    ]
   },
   {
-    "module": "231 - Appliquer la protection et la sécurité des données",
-    "description": "Apply data protection and data security principles, including legal requirements, to personal and company data."
+    "code": "g4",
+    "domain": "g - Développement d'applications",
+    "competence": "Elaborer des variantes de mise en œuvre d'une application et développer la solution sur le plan conceptuel",
+    "modules": [
+      "106",
+      "107",
+      "164",
+      "210",
+      "216",
+      "217",
+      "223",
+      "259",
+      "306",
+      "319",
+      "320",
+      "321",
+      "323",
+      "335",
+      "346"
+    ]
   },
   {
-    "module": "241 - Initialiser des solutions ICT innovantes",
-    "description": "Research innovations and the state of the art to identify and propose innovative ICT solution ideas."
+    "code": "g5",
+    "domain": "g - Développement d'applications",
+    "competence": "Implémenter les applications et les interfaces selon le concept en respectant les exigences de sécurité",
+    "modules": [
+      "106",
+      "165",
+      "183",
+      "216",
+      "217",
+      "223",
+      "293",
+      "294",
+      "295",
+      "319",
+      "320",
+      "321",
+      "322",
+      "323",
+      "324",
+      "335",
+      "426"
+    ]
   },
   {
-    "module": "245 - Mettre en œuvre des solutions ICT innovantes",
-    "description": "Turn an innovative ICT idea into a working solution, including evaluating variants and their risks."
+    "code": "g6",
+    "domain": "g - Développement d'applications",
+    "competence": "Vérifier la qualité et la sécurité des applications et des interfaces",
+    "modules": [
+      "183",
+      "217",
+      "223",
+      "259",
+      "295",
+      "321",
+      "324",
+      "426",
+      "450"
+    ]
   },
   {
-    "module": "248 - Réaliser des solutions ICT avec des technologies actuelles",
-    "description": "Optional CIE module on building ICT solutions with current technologies, including a technical proof of concept."
+    "code": "h1",
+    "domain": "h - Délivrance et fonctionnement des applications",
+    "competence": "Définir la plateforme appropriée pour la livraison des applications",
+    "modules": [
+      "210",
+      "346",
+      "347"
+    ]
   },
   {
-    "module": "254 - Décrire des processus métier dans son propre environnement professionnel",
-    "description": "Analyse, break down and document business processes graphically using standard notations."
+    "code": "h2",
+    "domain": "h - Délivrance et fonctionnement des applications",
+    "competence": "Définir le processus de livraison des applications",
+    "modules": [
+      "210",
+      "324",
+      "346",
+      "426"
+    ]
   },
   {
-    "module": "259 - Développer des solutions ICT avec le Machine Learning",
-    "description": "Optional CIE module on developing ICT solutions that use machine learning on prepared data."
+    "code": "h3",
+    "domain": "h - Délivrance et fonctionnement des applications",
+    "competence": "Implémenter le processus de livraison des applications",
+    "modules": [
+      "122",
+      "190",
+      "210",
+      "324",
+      "335",
+      "346",
+      "347"
+    ]
   },
   {
-    "module": "293 - Créer et publier un site Web",
-    "description": "Build a website and publish it online."
-  },
-  {
-    "module": "294 - Réaliser le front-end d'une application Web interactive",
-    "description": "Mandatory CIE module on developing the front-end of an interactive web application."
-  },
-  {
-    "module": "295 - Réaliser le back-end pour des applications",
-    "description": "Mandatory CIE module on developing the back-end (APIs, business logic, data access) for applications."
-  },
-  {
-    "module": "306 - Réaliser de petits projets dans son propre environnement professionnel",
-    "description": "Plan, run, track and close small ICT projects in your own work environment using a suitable project method."
-  },
-  {
-    "module": "319 - Concevoir et implémenter des applications",
-    "description": "Design applications from requirements and implement them using fundamental programming concepts."
-  },
-  {
-    "module": "320 - Programmer orienté objet",
-    "description": "Design and write programs using object-oriented principles like classes, inheritance and encapsulation."
-  },
-  {
-    "module": "321 - Programmer des systèmes distribués",
-    "description": "Develop applications made of multiple communicating components or services running across systems."
-  },
-  {
-    "module": "322 - Concevoir et implémenter des interfaces utilisateur",
-    "description": "Design user interfaces with mock-ups and prototypes, focusing on usability and accessibility, then implement them."
-  },
-  {
-    "module": "323 - Programmer de manière fonctionnelle",
-    "description": "Write programs using functional programming concepts like pure functions, immutability and higher-order functions."
-  },
-  {
-    "module": "324 - Prendre en charge des processus DevOps avec des outils logiciels",
-    "description": "Support DevOps processes with tools for version control, CI/CD pipelines and automated delivery."
-  },
-  {
-    "module": "335 - Réaliser une application pour mobile",
-    "description": "Optional CIE module on developing an application for mobile devices."
-  },
-  {
-    "module": "346 - Concevoir et réaliser des solutions cloud",
-    "description": "Design and build cloud solutions, choosing the right platform and service model (IaaS, PaaS, SaaS)."
-  },
-  {
-    "module": "347 - Utiliser un service avec des conteneurs",
-    "description": "Package and run applications and services in containers (e.g. Docker)."
-  },
-  {
-    "module": "426 - Développer un logiciel avec des méthodes agiles",
-    "description": "Develop software in a team using agile methods such as Scrum, with backlogs, sprints and iterations."
-  },
-  {
-    "module": "431 - Exécuter des mandats de manière autonome dans un environnement professionnel",
-    "description": "Independently handle assignments in a professional setting, from clarifying requirements to reporting and handover."
-  },
-  {
-    "module": "450 - Tester des applications",
-    "description": "Write a test concept, define reproducible test cases, automate tests and report on the results."
+    "code": "h4",
+    "domain": "h - Délivrance et fonctionnement des applications",
+    "competence": "Surveiller les applications et les interfaces et résoudre les problèmes en cours de fonctionnement",
+    "modules": [
+      "109",
+      "110",
+      "183",
+      "187",
+      "321",
+      "346",
+      "431"
+    ]
   }
 ]
