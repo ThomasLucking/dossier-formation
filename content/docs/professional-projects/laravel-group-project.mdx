@@ -1,22 +1,41 @@
 ---
 title: Laravel Group Project
-description: A group project-management web application built with Laravel, Sail and PostgreSQL
+description: "Group project: Laravel 13 project management application with automated reminder emails"
 ---
+
+## General Information
+
+| Field | Detail |
+|---|---|
+| **Period** | 04.06.2026 → 13.08.2026 |
+| **Context** | Jobtrek Training Centre, group project (6 apprentices) |
+| **Training** | Apprentice 1st year |
+| **Main goal** | Build a project management application as a team that tracks projects through their phases and reminds project leaders when projects go stale |
+| **Role** | Developer in a team of 6, focused on code quality and security: authorization policies, project status guards, the mail reminder escalation, fixing the test suite, CI and refactoring (81 commits, 83 pull requests, 55 issues assigned) |
 
 ## Description
 
-A group project management web application built with Laravel 13, Laravel Sail, and PostgreSQL. It tracks projects and their leaders/members, and automatically sends scheduled reminder and warning emails to keep stale projects moving. This project deepened my experience working in a team on a Laravel codebase, using Docker-based tooling and automated code formatting.
+A Laravel 13 web application that tracks projects, their leaders and members through several stages (proposition, evaluation, in progress, archive). Projects follow a state machine, and resource contributions are capped at 200%. Scheduled Artisan commands send reminder and warning emails to the leaders of stale projects, and old projects are archived automatically. Roles and permissions restrict what each user can do. Code style is enforced with Laravel Pint through a Git pre-commit hook (CaptainHook), and a CI workflow runs Pint, PHPStan and the tests on every pull request.
 
-## What me and my team learned
+## Technologies Used
 
-- Laravel task scheduling and queued jobs for automated email reminders
-- Laravel Sail for a Dockerized local development environment
-- PostgreSQL as a database backend for Laravel
-- Enforcing consistent code style with Laravel Pint via a Git pre-commit hook (Captainhook)
-- Working with Mailtrap for safe local email testing
+| Category | Detail |
+|---|---|
+| **Languages** | PHP 8.3+, Blade |
+| **Frameworks / Libraries** | Laravel 13, Eloquent ORM, Alpine.js, Tailwind CSS, Spatie Permission |
+| **Tools** | Git, GitHub Actions, Laravel Sail (Docker), Laravel Pint, PHPStan, CaptainHook, Mailtrap |
+| **Database** | PostgreSQL |
 
-## What me and my team built
+## ICT Training Plan Competencies
+
+- `183`: Implémenter la sécurité d'une application
+- `324`: Prendre en charge des processus DevOps avec des outils logiciels
+- `347`: Utiliser un service avec des conteneurs
+- `426`: Développer un logiciel avec des méthodes agiles
+- `450`: Tester des applications
+
+## Repository
 
 <Cards>
-  <Card title="Github repo" href="https://github.com/jobtrek/laravel-group-project" description="Source code on GitHub" />
+  <Card title="Laravel Group Project" href="https://github.com/jobtrek/laravel-group-project" description="Source code on GitHub" />
 </Cards>

@@ -1,0 +1,162 @@
+[
+  {
+    "module": "106 - Interroger, traiter et assurer la maintenance des bases de données",
+    "description": "Write queries against existing databases, process the data and handle maintenance tasks like access rights, backups and integrity."
+  },
+  {
+    "module": "107 - Mettre en œuvre des solutions ICT avec la technologie blockchain",
+    "description": "Optional CIE module on designing and implementing ICT solutions that use blockchain technology, including its security aspects."
+  },
+  {
+    "module": "109 - Exploiter et surveiller des services dans le cloud public",
+    "description": "Optional CIE module on running, monitoring and securing services hosted on a public cloud platform."
+  },
+  {
+    "module": "110 - Analyser et représenter des données avec des outils",
+    "description": "Optional CIE module on importing data into analysis tools, exploring it and presenting it with appropriate visualisations."
+  },
+  {
+    "module": "114 - Mettre en œuvre des systèmes de codification, de compression et d'encryptage",
+    "description": "Understand and apply encoding, compression and encryption systems to represent, store and protect data."
+  },
+  {
+    "module": "117 - Mettre en place l'infrastructure informatique et réseau d'une petite entreprise",
+    "description": "Plan and set up the basic IT and network infrastructure of a small company, including connectivity and security basics."
+  },
+  {
+    "module": "122 - Automatiser des procédures à l'aide de scripts",
+    "description": "Automate repetitive IT tasks and processes by writing scripts."
+  },
+  {
+    "module": "162 - Analyser et modéliser des données",
+    "description": "Analyse data from various sources, clean it and design a normalised data model to represent it."
+  },
+  {
+    "module": "164 - Créer des bases de données et y insérer des données",
+    "description": "Implement a data model as a relational database with referential integrity and populate it with data."
+  },
+  {
+    "module": "165 - Utiliser des bases de données NoSQL",
+    "description": "Use NoSQL databases to store and query data and understand when they fit better than relational ones."
+  },
+  {
+    "module": "183 - Implémenter la sécurité d'une application",
+    "description": "Identify security risks in an application (e.g. OWASP) and implement measures like access control, encryption and escaping."
+  },
+  {
+    "module": "185 - Analyser et implémenter des mesures visant à assurer la sécurité informatique des PME",
+    "description": "Optional CIE module on assessing an SME's IT security situation and implementing appropriate protection measures."
+  },
+  {
+    "module": "187 - Mettre en service un Poste de travail ICT avec le système d'exploitation",
+    "description": "Mandatory CIE module on installing and configuring a workstation with its OS, software, network connection and security settings."
+  },
+  {
+    "module": "190 - Mettre en place et exploiter une plateforme de virtualisation",
+    "description": "Optional CIE module on setting up and operating a virtualisation platform to run virtual machines."
+  },
+  {
+    "module": "210 - Utiliser un cloud public pour des applications",
+    "description": "Optional CIE module on deploying and running applications using public cloud services and choosing the right service model."
+  },
+  {
+    "module": "216 - Intégrer les terminaux IoE dans une plateforme existante",
+    "description": "Optional CIE module on connecting Internet of Everything devices to an existing platform securely."
+  },
+  {
+    "module": "217 - Concevoir, planifier et mettre en place un service pour l'IoE",
+    "description": "Optional CIE module on designing, planning and building a service for Internet of Everything devices."
+  },
+  {
+    "module": "223 - Réaliser des applications multi-utilisateurs orientées objets",
+    "description": "Optional CIE module on building object-oriented applications that support multiple concurrent users."
+  },
+  {
+    "module": "231 - Appliquer la protection et la sécurité des données",
+    "description": "Apply data protection and data security principles, including legal requirements, to personal and company data."
+  },
+  {
+    "module": "241 - Initialiser des solutions ICT innovantes",
+    "description": "Research innovations and the state of the art to identify and propose innovative ICT solution ideas."
+  },
+  {
+    "module": "245 - Mettre en œuvre des solutions ICT innovantes",
+    "description": "Turn an innovative ICT idea into a working solution, including evaluating variants and their risks."
+  },
+  {
+    "module": "248 - Réaliser des solutions ICT avec des technologies actuelles",
+    "description": "Optional CIE module on building ICT solutions with current technologies, including a technical proof of concept."
+  },
+  {
+    "module": "254 - Décrire des processus métier dans son propre environnement professionnel",
+    "description": "Analyse, break down and document business processes graphically using standard notations."
+  },
+  {
+    "module": "259 - Développer des solutions ICT avec le Machine Learning",
+    "description": "Optional CIE module on developing ICT solutions that use machine learning on prepared data."
+  },
+  {
+    "module": "293 - Créer et publier un site Web",
+    "description": "Build a website and publish it online."
+  },
+  {
+    "module": "294 - Réaliser le front-end d'une application Web interactive",
+    "description": "Mandatory CIE module on developing the front-end of an interactive web application."
+  },
+  {
+    "module": "295 - Réaliser le back-end pour des applications",
+    "description": "Mandatory CIE module on developing the back-end (APIs, business logic, data access) for applications."
+  },
+  {
+    "module": "306 - Réaliser de petits projets dans son propre environnement professionnel",
+    "description": "Plan, run, track and close small ICT projects in your own work environment using a suitable project method."
+  },
+  {
+    "module": "319 - Concevoir et implémenter des applications",
+    "description": "Design applications from requirements and implement them using fundamental programming concepts."
+  },
+  {
+    "module": "320 - Programmer orienté objet",
+    "description": "Design and write programs using object-oriented principles like classes, inheritance and encapsulation."
+  },
+  {
+    "module": "321 - Programmer des systèmes distribués",
+    "description": "Develop applications made of multiple communicating components or services running across systems."
+  },
+  {
+    "module": "322 - Concevoir et implémenter des interfaces utilisateur",
+    "description": "Design user interfaces with mock-ups and prototypes, focusing on usability and accessibility, then implement them."
+  },
+  {
+    "module": "323 - Programmer de manière fonctionnelle",
+    "description": "Write programs using functional programming concepts like pure functions, immutability and higher-order functions."
+  },
+  {
+    "module": "324 - Prendre en charge des processus DevOps avec des outils logiciels",
+    "description": "Support DevOps processes with tools for version control, CI/CD pipelines and automated delivery."
+  },
+  {
+    "module": "335 - Réaliser une application pour mobile",
+    "description": "Optional CIE module on developing an application for mobile devices."
+  },
+  {
+    "module": "346 - Concevoir et réaliser des solutions cloud",
+    "description": "Design and build cloud solutions, choosing the right platform and service model (IaaS, PaaS, SaaS)."
+  },
+  {
+    "module": "347 - Utiliser un service avec des conteneurs",
+    "description": "Package and run applications and services in containers (e.g. Docker)."
+  },
+  {
+    "module": "426 - Développer un logiciel avec des méthodes agiles",
+    "description": "Develop software in a team using agile methods such as Scrum, with backlogs, sprints and iterations."
+  },
+  {
+    "module": "431 - Exécuter des mandats de manière autonome dans un environnement professionnel",
+    "description": "Independently handle assignments in a professional setting, from clarifying requirements to reporting and handover."
+  },
+  {
+    "module": "450 - Tester des applications",
+    "description": "Write a test concept, define reproducible test cases, automate tests and report on the results."
+  }
+]

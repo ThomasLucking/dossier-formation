@@ -1,4 +1,7 @@
 {
   "title": "Portfolio",
-  "pages": ["index", "professional-projects", "exploration-projects", "technologies"]
+  "pages": [
+    "index",
+    "professional-projects"
+  ]
 }

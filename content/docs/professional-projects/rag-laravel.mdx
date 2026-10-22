@@ -1,0 +1,63 @@
+---
+title: RAG with Laravel & pgvector
+description: "Knowledge base with word search and meaning search, built with Laravel, pgvector and Ollama"
+---
+
+## General Information
+
+| Field | Detail |
+|---|---|
+| **Period** | 04.09.2026 → 02.10.2026 |
+| **Context** | Jobtrek Training Centre |
+| **Training** | Apprentice 2nd year |
+| **Main goal** | Build a searchable knowledge base in Laravel, then compare word search (full-text) with meaning search (embeddings + local LLM) |
+| **Role** | Solo developer |
+
+## Description
+
+A Laravel application that imports a Markdown corpus into PostgreSQL, splits each document into text fragments and stores an embedding for each fragment with pgvector. It offers three modes: full-text word search, meaning search by vector similarity with a configurable threshold, and generated answers from a local Ollama model that cite their source documents. Workshop members can also browse documents and manage project records through forms with server-side validation. The search modes were benchmarked on a fixed set of test questions, and two embedding models were compared (`nomic-embed-text` vs `qwen3-embedding:4b`). The final step, migrating the search to Laravel Scout, was not completed.
+
+## Technologies Used
+
+| Category | Detail |
+|---|---|
+| **Languages** | PHP, SQL |
+| **Frameworks / Libraries** | Laravel, Laravel AI SDK |
+| **Tools** | Git, Composer, pnpm, Laravel Sail (Docker), Ollama |
+| **Database** | PostgreSQL with pgvector |
+
+## ICT Training Plan Competencies
+
+- `164`: Créer des bases de données et y insérer des données
+- `245`: Mettre en œuvre des solutions ICT innovantes
+- `248`: Réaliser des solutions ICT avec des technologies actuelles
+- `295`: Réaliser le back-end pour des applications
+- `347`: Utiliser un service avec des conteneurs
+
+## LLM Performance Metrics
+
+Benchmarks captured against the local Ollama instance:
+
+**Generation (`llama3.2:3b`)**
+
+| Metric | Value |
+|---|---|
+| Total duration | 655.19 ms |
+| Load duration | 3.10 ms |
+| Prompt eval duration | 83.24 ms |
+| Prompt eval count | 32 tokens |
+| Eval duration | 567.11 ms |
+| Eval count | 8 tokens |
+
+**Embedding (`nomic-embed-text`)**
+
+| Metric | Value |
+|---|---|
+| Elapsed time | 13.45 ms |
+| Vector length | 768 |
+
+## Repository
+
+<Cards>
+  <Card title="RAG Laravel" href="https://github.com/ThomasLucking/RAG-Laravel" description="Source code on GitHub" />
+</Cards>
